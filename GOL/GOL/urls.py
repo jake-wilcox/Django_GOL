@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     #include our app so that all of our base urls get got from urls.py in our game directory
-    path("", include("game.urls"))
+    path("", include("game.urls")),
 ]
