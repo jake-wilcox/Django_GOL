@@ -2,6 +2,8 @@ from django.db import models
 # Create your models here.
 
 #This way of keeping track of shapes and their cells feels kind of weird. senior engineers wanted
+#maybe I could make a compression algorithem to go through a grid and encode it into a cool string that could identify comon shapes and compress in general.
+#To implament massive shapes like the turing machine maybe I could write something that recognises shapes inside the bigger shape and stores them instead of a cell.
 
 #Cell Table Fields: CellID, X, Y
 #We Only need to keep track of alive cells
